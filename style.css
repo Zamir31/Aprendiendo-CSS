@@ -1,0 +1,51 @@
+ * {
+    font-family: Georgia;
+    font-weight: 900;
+}
+
+ h1 {
+    background-color: red;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid blue;
+    box-shadow: 0px 0px 5px 3px black;
+    text-shadow: 10px 10px 10px white;
+    transform: rotate(90deg);
+}  
+
+/* selector por atributo */
+/* [parrafo = "el parrafo"] {
+    color: aqua;
+} */
+
+/* por desendencia  */
+
+/* div p {
+    color: blue;
+} */
+
+/* psedoclases */
+/* h1:hover {
+    color: blueviolet;
+}
+
+.elH2 h2:hover {
+    color: aqua;
+}
+
+.form__input:first-child {
+    color: aquamarine;
+}*/
+
+.caja__div {
+    font-size: 10px;
+}
+
+.caja__div--1 {
+    font-size: 2em;
+    color: red;
+} 
